@@ -25,9 +25,9 @@ public:
 };
 
 
-
-int main()
-{
-
+int main() {
+	BangunDatar pp;
+	pp.input();
+	pp.display();
+	return 0;
 }
-

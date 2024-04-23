@@ -37,8 +37,18 @@ public:
 };
 
 
-int main()
-{
-    
+int main() {
+	mahasiswa mhs;
+	MataKuliah mk;
+
+	mhs.nama = "Putra";
+	mhs.umur = 17;
+	mhs.jurusan = "Teknologi Informasi";
+	mhs.output();
+
+	mk.input();
+	mk.output();
+
+	return 0;
 }
 

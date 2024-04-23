@@ -17,7 +17,9 @@ public:	//akses modifier
 
 class MataKuliah {
 private:
-	
+	string kodeMK;
+	string namaMK;
+	int sks;
 
 int main()
 {
